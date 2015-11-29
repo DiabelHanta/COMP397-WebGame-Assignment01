@@ -1,0 +1,6 @@
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\bin\COMP397-Assignment01-StateMachines.dll.config
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\bin\COMP397-Assignment01-StateMachines.dll
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\bin\COMP397-Assignment01-StateMachines.pdb
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\obj\Debug\COMP397-Assignment01-StateMachines.csprojResolveAssemblyReference.cache
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\obj\Debug\COMP397-Assignment01-StateMachines.dll
+C:\Users\Faim\Documents\Visual Studio 2013\Projects\COMP397-Assignment01-StateMachines\COMP397-Assignment01-StateMachines\obj\Debug\COMP397-Assignment01-StateMachines.pdb
