@@ -21,7 +21,8 @@
 
 // You are one of those who like to know how things work inside?
 // Let me show you the cogs that make impress.js run...
-(function ( document, window ) {
+(function (document, window)
+{
     'use strict';
     
     // HELPER FUNCTIONS
@@ -69,12 +70,16 @@
     // `css` function applies the styles given in `props` object to the element
     // given as `el`. It runs all property names through `pfx` function to make
     // sure proper prefixed version of the property is used.
-    var css = function ( el, props ) {
+    var css = function (el, props)
+    {
         var key, pkey;
-        for ( key in props ) {
-            if ( props.hasOwnProperty(key) ) {
+        for (key in props)
+        {
+            if (props.hasOwnProperty(key))
+            {
                 pkey = pfx(key);
-                if ( pkey !== null ) {
+                if (pkey !== null)
+                {
                     el.style[pkey] = props[key];
                 }
             }
@@ -85,46 +90,53 @@
     // `toNumber` takes a value given as `numeric` parameter and tries to turn
     // it into a number. If it is not possible it returns 0 (or other value
     // given as `fallback`).
-    var toNumber = function (numeric, fallback) {
+    var toNumber = function (numeric, fallback)
+    {
         return isNaN(numeric) ? (fallback || 0) : Number(numeric);
     };
     
     // `byId` returns element with given `id` - you probably have guessed that ;)
-    var byId = function ( id ) {
+    var byId = function (id)
+    {
         return document.getElementById(id);
     };
     
     // `$` returns first element for given CSS `selector` in the `context` of
     // the given element or whole document.
-    var $ = function ( selector, context ) {
+    var $ = function (selector, context)
+    {
         context = context || document;
         return context.querySelector(selector);
     };
     
     // `$$` return an array of elements for given CSS `selector` in the `context` of
     // the given element or whole document.
-    var $$ = function ( selector, context ) {
+    var $$ = function (selector, context)
+    {
         context = context || document;
         return arrayify( context.querySelectorAll(selector) );
     };
     
     // `triggerEvent` builds a custom DOM event with given `eventName` and `detail` data
     // and triggers it on element given as `el`.
-    var triggerEvent = function (el, eventName, detail) {
+    var triggerEvent = function (el, eventName, detail)
+    {
         var event = document.createEvent("CustomEvent");
         event.initCustomEvent(eventName, true, true, detail);
         el.dispatchEvent(event);
     };
     
     // `translate` builds a translate transform string for given data.
-    var translate = function ( t ) {
+    var translate = function (t)
+    {
         return " translate3d(" + t.x + "px," + t.y + "px," + t.z + "px) ";
     };
     
     // `rotate` builds a rotate transform string for given data.
     // By default the rotations are in X Y Z order that can be reverted by passing `true`
     // as second parameter.
-    var rotate = function ( r, revert ) {
+    var rotate = function (r, revert)
+    {
         var rX = " rotateX(" + r.x + "deg) ",
             rY = " rotateY(" + r.y + "deg) ",
             rZ = " rotateZ(" + r.z + "deg) ";
@@ -133,12 +145,14 @@
     };
     
     // `scale` builds a scale transform string for given data.
-    var scale = function ( s ) {
+    var scale = function (s)
+    {
         return " scale(" + s + ") ";
     };
     
     // `perspective` builds a perspective transform string for given data.
-    var perspective = function ( p ) {
+    var perspective = function (p)
+    {
         return " perspective(" + p + "px) ";
     };
     

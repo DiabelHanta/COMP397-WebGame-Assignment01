@@ -8,49 +8,220 @@
 </head>
 <body>
     <div id="impress">
-        <div id="intro" class="step slide">
+        <!-- INITIAL START -->
+        <div id="node1" class="step slide">
             <div class="slide-text">
-                <p>You are on a planet full of dragons. In front of you,</p>
-                <p>you see two caves. In one cave, the dragon is friendly</p>
-                <p>and will share his treasure with you. The other dragon</p>
-                <p>is greedy and hungry, and will eat you on sight.</p>
-                <br />
-                <p>Which cave do you go into?</p>
-                <p><a href="#cave1">CAVE 1</a></p>
-                <p>or</p>
-                <p><a href="#cave2">CAVE 2</a></p>
+                <h1 id="textCenter">Start:</h1>
+                <p>
+                    You’re in the classroom bored out of your mind during grade 12 physics class, so you decide to skip class. <br>
+                    You walk down the stairs where you find yourself in the middle of a hallway, so there you noticed your stoner friends on the left side and your crush Stephanie is on the right side.
+                </p>
+                <p id="textCenter">
+                    Which path do you take?
+                </p>
+                <p id="textCenter">
+                    <a href="#node2">Go Left</a>
+                    or
+                    <a href="#node3">Go Right</a>
+                </p>
             </div>
         </div>
-
-        <div id="cave1" class="step slide" data-x="1500">
+        <!-- FIRST DECISION LEVEL: -->
+        <!-- Path A -->
+        <div id="node2" class="step slide" data-x="-1500">
             <div class="slide-text">
-                <p>You approach the cave, it is dark and spooky.</p>
-            <p>A large red dragon jumps out in front of you!</p>
-            <p>He opens his jaws and...</p>
-            <br />
-            <p>Gobbles you down with one bite!</p>
-            </div> 
+                <p>
+                    You decided to go to the stoners and you see them talking to each other and then one of them, your cousin Frank calls you to join.
+                    <br />
+                    Frank then asks you if you’re interested in sharing a “blunt” (smoke) with him and his friends outside of school.
+                </p>
+                <p id="textCenter">
+                    Do you say yes or no to their offer?
+                </p>
+                <p id="textCenter">
+                    <a href="#node4">You say yes</a>
+                    or
+                    <a href="#node5">You say no</a>
+                </p>
+            </div>
             <div class="menu">
-                <a href="#intro">START OVER</a>
-            </div> 
-        </div> 
-
-        <div id="cave2" class="step slide" data-x="-1500">
+                <a href="#node1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path B -->
+        <div id="node3" class="step slide" data-x="1500">
             <div class="slide-text">
                 <p>You approach the cave, it is bright and cheerful.</p>
                 <p>A large white dragon approaches you...</p>
                 <p>And gives you his treasure.</p>
-            </div> 
+            </div>
             <div class="menu">
-                <a href="#intro">START OVER</a>
-            </div> 
+                <a href="#node1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- SECOND DECISION LEVEL: -->
+        <!-- Path AA -->
+        <div id="node4" class="step slide" data-x="1500" data-y="1500">
+            <div class="slide-text">
+                <p>
+                    You follow your cousin and go outside of school to the community park near the school’s parking lot to smoke marijuana. <br />
+                    As you’re smoking weed you start to feel paranoid and continue to frequently look around you, making sure no one catches you. <br />
+                    As you’re having fun talking and smoking with your stoner friends, you see Stephanie walking towards you chatting with some friend of hers. <br />
+                    You’re scared that she’ll see you and judge you for smoking.
+                </p>
+                <p>
+                    Do you tell your friends you have to go back? or Do you continue to enjoy smoking and be noticed by your crush?
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path AB -->
+        <div id="node5" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You decline their offer and say that you’re looking to go to the library and “study”. <br />
+                    As you’re walking towards the library you notice a gang of three people bullying a minor, perhaps a ninth grader.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BA -->
+        <div id="node6" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You say yes and pretend that you’re interested and have always been interested in music. <br />
+                    You’re asked to participate in showing your skills on the Guitar by jamming with Stephanie and the other band members.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BB -->
+        <div id="node7" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You’re honest and say that that sounds interesting, but you’re not really into playing musical instruments. <br />
+                    You say you just want to chill and talk. You express your affections to her and wait for her to respond.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- THIRD DECISION LEVEL: -->
+        <!-- Path AAA -->
+        <div id="outcome1" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You decide to stay and have fun with your friends, and Stephanie takes a look at you and shrugs in disgust leaving you sad and ashamed of yourself. <br />
+                    You decided to think who cares about her, since you have these guys with you, but you’re still uncertain and now you’re forever scared to ever talk to her again…
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path AAB -->
+        <div id="outcome2" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You’re too paranoid to think about it so you start running away from your stoner friends and stay out of sight from Stephanie. <br />
+                    Your friends call you out, but you burst out of there. You’re confused, sad, and desperate to get out of here, so you decide to pack up and leave. <br />
+                    “Was it worth it?” you ask yourself, but you slowly ignore that thought and walk home feeling paranoid and pathetic…
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path ABA -->
+        <div id="outcome3" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You decide to “help” and stand up to the bullies by telling them to leave the minor alone or else. <br />
+                    The bullies ask, “Or else what? You’ll fight us?” As the adrenaline rushed up to your brain you say yes!... <br />
+                    You blanked out, and wake up with your underwear on your face and the minor next to you in the same position. <br />
+                    He says, “What the hell were you thinking?! They would have just taken my lunch money and then would have left me alone!... Leave me alone next time! ” <br />
+                    You sit there wondering, “Why the hell did I go to help that little douchebag… I should have went to the library instead…
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path ABB -->
+        <div id="outcome4" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You think to yourself, “Screw it!”, since it’s not involving you in anyway, and then you continue to walk to the library. <br />
+                    Once you reached to the library, you go inside and start reading a book, when all of a sudden you hear someone shout your name to get out of the library. <br />
+                    While you had the puzzled look as to why you’re getting kicked out, you remember that you lost about 10 manga (comics) and 3 novels in this semester, and as your punishment you had to pay for it all and not come back to the library for the remainder of the semester. <br />
+                    The school bell rings and you left accomplishing nothing…once again.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BAA -->
+        <div id="outcome5" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You agree and pretend to play the guitar. You make a fool of yourself in front of the entire band. <br />They all laugh and make fun of you. <br />
+                    You become a joke for lying...
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BAB -->
+        <div id="outcome6" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You decide to admit you don’t know how to play and begin to look down shamefully. Everyone calls you out for being a liar and you end up going home...
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BBA -->
+        <div id="outcome7" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You give it a shot to be confident and “alpha” so you ask her with a confident smile if she wants to make out and have some “fun” later on. <br />
+                    She declines and sighs with disgust and calls you a creep while walking out. <br />
+                    You’re sad and confused, since all of those articles you read online told you to act this way and you’ll “win” the girl. <br />
+                    Out of anger you leave school and a tear falls from your eye.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
+        </div>
+        <!-- Path BBB -->
+        <div id="outcome8" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>
+                    You say, “To be honest I really love talking to you! You’re smart, funny, and really down to earth and it’s always fun talking to you!” <br />
+                    She smiles and blushes and you become friends and at the end of the semester you finally get the balls to ask her out and she says yes.
+                </p>
+            </div>
+            <div class="menu">
+                <a href="#outcome1">PLAY AGAIN?</a>
+            </div>
         </div>
 
-    </div>
 
+    </div>
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
-
 </body>
 </html>
