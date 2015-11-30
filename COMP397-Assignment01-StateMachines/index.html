@@ -51,17 +51,19 @@
         <!-- Path B -->
         <div id="node3" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You approach the cave, it is bright and cheerful.</p>
-                <p>A large white dragon approaches you...</p>
-                <p>And gives you his treasure.</p>
+                <p>
+                    You walk towards Stephanie and you talk to her and she asks if you want to join the music club
+                </p>
             </div>
-            <div class="menu">
-                <a href="#node1">PLAY AGAIN?</a>
-            </div>
+            <p id="textCenter">
+                <a href="#node6">You say yes! I love playing music</a>
+                or
+                <a href="#node7">You're honest and say you're not really interested in music</a>
+            </p>
         </div>
         <!-- SECOND DECISION LEVEL: -->
         <!-- Path AA -->
-        <div id="node4" class="step slide" data-x="1500" data-y="1500">
+        <div id="node4" class="step slide" data-x="-1500" data-y="-1500">
             <div class="slide-text">
                 <p>
                     You follow your cousin and go outside of school to the community park near the school’s parking lot to smoke marijuana. <br />
@@ -73,49 +75,57 @@
                     Do you tell your friends you have to go back? or Do you continue to enjoy smoking and be noticed by your crush?
                 </p>
             </div>
-            <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
-            </div>
+            <p id="textCenter">
+                <a href="#outcome1">You stay there smoking weed</a>
+                or
+                <a href="#outcome2">You go back to class</a>
+            </p>
         </div>
         <!-- Path AB -->
-        <div id="node5" class="step slide" data-x="-3000">
+        <div id="node5" class="step slide" data-x="-1500" data-y="1500">
             <div class="slide-text">
                 <p>
                     You decline their offer and say that you’re looking to go to the library and “study”. <br />
                     As you’re walking towards the library you notice a gang of three people bullying a minor, perhaps a ninth grader.
                 </p>
             </div>
-            <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
-            </div>
+            <p id="textCenter">
+                <a href="#outcome3">Do you help?</a>
+                or
+                <a href="#outcome4">Do you go to the library</a>
+            </p>
         </div>
         <!-- Path BA -->
-        <div id="node6" class="step slide" data-x="-3000">
+        <div id="node6" class="step slide" data-x="1500" data-y="-1500">
             <div class="slide-text">
                 <p>
                     You say yes and pretend that you’re interested and have always been interested in music. <br />
                     You’re asked to participate in showing your skills on the Guitar by jamming with Stephanie and the other band members.
                 </p>
             </div>
-            <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
-            </div>
+            <p id="textCenter">
+                <a href="#outcome5">You admit you don't know how to play</a>
+                or
+                <a href="#outcome6">You say yes you know how to play the guitar</a>
+            </p>
         </div>
         <!-- Path BB -->
-        <div id="node7" class="step slide" data-x="-3000">
+        <div id="node7" class="step slide" data-x="1500" data-y="1500">
             <div class="slide-text">
                 <p>
                     You’re honest and say that that sounds interesting, but you’re not really into playing musical instruments. <br />
                     You say you just want to chill and talk. You express your affections to her and wait for her to respond.
                 </p>
             </div>
-            <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
-            </div>
+            <p id="textCenter">
+                <a href="#outcome7">You express your feelings in an "alpha" way</a>
+                or
+                <a href="#outcome8">You express your feelings honestly</a>
+            </p>
         </div>
         <!-- THIRD DECISION LEVEL: -->
         <!-- Path AAA -->
-        <div id="outcome1" class="step slide" data-x="-3000">
+        <div id="outcome1" class="step slide" data-x="-1500" data-y="-3000">
             <div class="slide-text">
                 <p>
                     You decide to stay and have fun with your friends, and Stephanie takes a look at you and shrugs in disgust leaving you sad and ashamed of yourself. <br />
@@ -123,11 +133,11 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path AAB -->
-        <div id="outcome2" class="step slide" data-x="-3000">
+        <div id="outcome2" class="step slide" data-x="-3000" data-y="-1500">
             <div class="slide-text">
                 <p>
                     You’re too paranoid to think about it so you start running away from your stoner friends and stay out of sight from Stephanie. <br />
@@ -136,11 +146,11 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path ABA -->
-        <div id="outcome3" class="step slide" data-x="-3000">
+        <div id="outcome3" class="step slide" data-x="-1500" data-y="3000">
             <div class="slide-text">
                 <p>
                     You decide to “help” and stand up to the bullies by telling them to leave the minor alone or else. <br />
@@ -151,11 +161,11 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path ABB -->
-        <div id="outcome4" class="step slide" data-x="-3000">
+        <div id="outcome4" class="step slide" data-x="-3000" data-y="1500">
             <div class="slide-text">
                 <p>
                     You think to yourself, “Screw it!”, since it’s not involving you in anyway, and then you continue to walk to the library. <br />
@@ -165,11 +175,11 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path BAA -->
-        <div id="outcome5" class="step slide" data-x="-3000">
+        <div id="outcome5" class="step slide" data-x="1500" data-y="-3000">
             <div class="slide-text">
                 <p>
                     You agree and pretend to play the guitar. You make a fool of yourself in front of the entire band. <br />They all laugh and make fun of you. <br />
@@ -177,22 +187,22 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path BAB -->
-        <div id="outcome6" class="step slide" data-x="-3000">
+        <div id="outcome6" class="step slide" data-x="3000" data-y="-1500">
             <div class="slide-text">
                 <p>
                     You decide to admit you don’t know how to play and begin to look down shamefully. Everyone calls you out for being a liar and you end up going home...
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path BBA -->
-        <div id="outcome7" class="step slide" data-x="-3000">
+        <div id="outcome7" class="step slide" data-x="1500" data-y="3000">
             <div class="slide-text">
                 <p>
                     You give it a shot to be confident and “alpha” so you ask her with a confident smile if she wants to make out and have some “fun” later on. <br />
@@ -202,11 +212,11 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path BBB -->
-        <div id="outcome8" class="step slide" data-x="-3000">
+        <div id="outcome8" class="step slide" data-x="3000" data-y="1500">
             <div class="slide-text">
                 <p>
                     You say, “To be honest I really love talking to you! You’re smart, funny, and really down to earth and it’s always fun talking to you!” <br />
@@ -214,7 +224,7 @@
                 </p>
             </div>
             <div class="menu">
-                <a href="#outcome1">PLAY AGAIN?</a>
+                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
 
