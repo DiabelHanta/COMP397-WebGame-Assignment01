@@ -1,4 +1,10 @@
-﻿body 
+﻿/*
+    Script:         main.css
+    Author:         Khandker Hussain
+    Date:           11/30/2015 Monday
+    Description:    Cascading Style Sheet for the main styles of the entire webpage
+*/
+body 
 {
 background: #b5bdc8;
 background: -moz-radial-gradient(center, ellipse cover,  #b5bdc8 0, #828c95 36%, #28343b 100%);

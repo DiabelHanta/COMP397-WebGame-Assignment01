@@ -1,3 +1,10 @@
+/*
+    Script:         impress.js
+    Author:         Khandker Hussain
+    Date:           11/30/2015 Monday
+    Description:    Impress.js file that controls the functionality of the slides
+*/
+
 /**
  * impress.js
  *

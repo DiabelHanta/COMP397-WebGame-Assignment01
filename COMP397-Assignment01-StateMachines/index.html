@@ -1,8 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<!-- 
+    Script:         index.html
+    Author:         Khandker Hussain
+    Date:           11/30/2015 Monday
+    Description:    Main HTML file that controls the creation of the webpage
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Dragon!</title>
+    <title>High School - Roller Coaster</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
@@ -39,26 +45,25 @@
                     Do you say yes or no to their offer?
                 </p>
                 <p id="textCenter">
-                    <a href="#node4">You say yes</a>
+                    <a href="#node4">Yes</a>
                     or
-                    <a href="#node5">You say no</a>
+                    <a href="#node5">No</a>
                 </p>
-            </div>
-            <div class="menu">
-                <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
         <!-- Path B -->
         <div id="node3" class="step slide" data-x="1500">
             <div class="slide-text">
                 <p>
-                    You walk towards Stephanie and you talk to her and she asks if you want to join the music club
+                    You walk towards Stephanie and you talk to her and she asks if you want to join the music club. <br />
+                    You think playing instruments is boring and uninteresting, but your crush is asking you to join. <br />
+                    What will it be?
                 </p>
             </div>
             <p id="textCenter">
-                <a href="#node6">You say yes! I love playing music</a>
+                <a href="#node6">I love playing music</a>
                 or
-                <a href="#node7">You're honest and say you're not really interested in music</a>
+                <a href="#node7">I don't really play music</a>
             </p>
         </div>
         <!-- SECOND DECISION LEVEL: -->
@@ -76,9 +81,9 @@
                 </p>
             </div>
             <p id="textCenter">
-                <a href="#outcome1">You stay there smoking weed</a>
+                <a href="#outcome1">I'll stay</a>
                 or
-                <a href="#outcome2">You go back to class</a>
+                <a href="#outcome2">Back to class</a>
             </p>
         </div>
         <!-- Path AB -->
@@ -88,11 +93,14 @@
                     You decline their offer and say that you’re looking to go to the library and “study”. <br />
                     As you’re walking towards the library you notice a gang of three people bullying a minor, perhaps a ninth grader.
                 </p>
+                <p>
+                    Do you help him? Or do you go on to the library?
+                </p>
             </div>
             <p id="textCenter">
-                <a href="#outcome3">Do you help?</a>
+                <a href="#outcome3">I'll help</a>
                 or
-                <a href="#outcome4">Do you go to the library</a>
+                <a href="#outcome4">Onwards to the library</a>
             </p>
         </div>
         <!-- Path BA -->
@@ -100,13 +108,16 @@
             <div class="slide-text">
                 <p>
                     You say yes and pretend that you’re interested and have always been interested in music. <br />
-                    You’re asked to participate in showing your skills on the Guitar by jamming with Stephanie and the other band members.
+                    You’re asked to participate in showing your skills on the Guitar by jamming with Stephanie and the other band members. <br />
+                </p>
+                <p>
+                    Do you say the truth that you have no clue or do you show them your amateur Guitar skills…?
                 </p>
             </div>
             <p id="textCenter">
-                <a href="#outcome5">You admit you don't know how to play</a>
+                <a href="#outcome5">Tell the truth</a>
                 or
-                <a href="#outcome6">You say yes you know how to play the guitar</a>
+                <a href="#outcome6">Play the guitar</a>
             </p>
         </div>
         <!-- Path BB -->
@@ -116,11 +127,14 @@
                     You’re honest and say that that sounds interesting, but you’re not really into playing musical instruments. <br />
                     You say you just want to chill and talk. You express your affections to her and wait for her to respond.
                 </p>
+                <p>
+                    She asks you, “What do you want to do now?”
+                </p>
             </div>
             <p id="textCenter">
-                <a href="#outcome7">You express your feelings in an "alpha" way</a>
+                <a href="#outcome7">You go "alpha"</a>
                 or
-                <a href="#outcome8">You express your feelings honestly</a>
+                <a href="#outcome8">You express your feelings</a>
             </p>
         </div>
         <!-- THIRD DECISION LEVEL: -->
@@ -182,8 +196,8 @@
         <div id="outcome5" class="step slide" data-x="1500" data-y="-3000">
             <div class="slide-text">
                 <p>
-                    You agree and pretend to play the guitar. You make a fool of yourself in front of the entire band. <br />They all laugh and make fun of you. <br />
-                    You become a joke for lying...
+                    You decide to admit you don’t know how to play and begin to look down shamefully. <br />
+                    Everyone calls you out for being a liar and you end up going home...
                 </p>
             </div>
             <div class="menu">
@@ -194,7 +208,8 @@
         <div id="outcome6" class="step slide" data-x="3000" data-y="-1500">
             <div class="slide-text">
                 <p>
-                    You decide to admit you don’t know how to play and begin to look down shamefully. Everyone calls you out for being a liar and you end up going home...
+                    You agree and pretend to play the guitar. You make a fool of yourself in front of the entire band. <br />
+                    They all laugh and make fun of you. You become a joke for lying...
                 </p>
             </div>
             <div class="menu">
@@ -227,8 +242,6 @@
                 <a href="#node1">PLAY AGAIN?</a>
             </div>
         </div>
-
-
     </div>
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
